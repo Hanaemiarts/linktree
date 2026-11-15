@@ -157,6 +157,10 @@ p {
   margin-bottom: 2rem;
 }
 
+.terms-intro {
+  color: var(--content-primary);
+}
+
 .terms-list {
   list-style: none;
   padding-top: 1rem;
@@ -304,6 +308,7 @@ p {
     left: 50%;
     height: 170vh;
     transform: translateX(-50%);
+    opacity: 0.2;
   }
 
   .linktree-container {
@@ -324,6 +329,15 @@ p {
     left: 50%;
     height: 160vh;
     transform: translateX(-50%);
+    opacity: 0.2;
+  }
+
+  .terms-container {
+    width: calc(100% - 1rem);
+  }
+
+  .terms-content {
+    padding-inline: 1rem;
   }
 
   .linktree-container {
